@@ -1,0 +1,20 @@
+cd /opt/tomcat-manualinv/webapps/
+   ll
+   cd /opt/
+  ll
+   cd tomcat-manualinv/webapps/
+   ll
+   cp ROOT.war /opt/back-manualinv/ROOT.war-21022022
+   cd /tmp
+   ls -lathr
+   cd /opt/tomcat-manualinv/webapps/
+   ll
+   rm ROOT.war
+   ll
+   cd /tmp/
+   ll
+   cp octopus-feb-21-2022.war /opt/tomcat-manualinv/webapps/ROOT.war
+   cd /opt/tomcat-manualinv/webapps
+   ll
+   cd ../logs/
+   tail -100f catalina.out
